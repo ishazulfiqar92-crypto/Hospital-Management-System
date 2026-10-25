@@ -45,3 +45,5 @@ const billingSchema = new mongoose.Schema(
 );
 
 const Billing = mongoose.model("Billing", billingSchema);
+
+export default Billing;
